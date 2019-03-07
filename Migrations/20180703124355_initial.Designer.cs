@@ -29,6 +29,10 @@ namespace TodoApi.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<string>("Veg");
+
+                    b.Property<string>("Paul");
+
                     b.HasKey("Id");
 
                     b.ToTable("TodoItems");

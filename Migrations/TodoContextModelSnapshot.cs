@@ -23,6 +23,8 @@ namespace TodoApi.Migrations
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("Veg");
+
                     b.Property<bool>("IsComplete");
 
                     b.Property<string>("Name");
